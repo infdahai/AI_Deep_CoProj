@@ -6,10 +6,14 @@ description : cooperative deep learning project
 We build Grapht-Text-Graph Project in this work.
 
 # Environment
+
+## 类脑平台
 url: https://http://www.bitahub.com/beta/  
 username: isaacc@mail.ustc.edu.cn  
 password: W8h268
 
+## Colab (recommend platform)
+url: https://colab.research.google.com
 
 # Related Sites
 
