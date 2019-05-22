@@ -22,3 +22,11 @@ url: https://colab.research.google.com
   https://nthu-datalab.github.io/ml/competitions/04_Reverse-Image-Caption/04_Reverse_Image_Caption.html
 3. Graph to Text
 4. Compose
+
+# Process
+
+5.22 - now
+
+  train code ( reverse image caption)  
+  **Problems**
+    case 1:
