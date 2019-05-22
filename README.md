@@ -6,8 +6,8 @@ description : cooperative deep learning project
 We build Grapht-Text-Graph Project in this work.
 
 # Environment
-url: https://http://www.bitahub.com/beta/
-username: isaacc@mail.ustc.edu.cn
+url: https://http://www.bitahub.com/beta/  
+username: isaacc@mail.ustc.edu.cn  
 password: W8h268
 
 
