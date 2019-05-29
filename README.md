@@ -18,11 +18,11 @@ url: https://colab.research.google.com
 # Related Sites
 
 1. search paper : [arxiv](https://arxiv.org/list/cs/recent)
-2. Text to Graph:
-  https://nthu-datalab.github.io/ml/competitions/04_Reverse-Image-Caption/04_Reverse_Image_Caption.html
-3. Graph to Text
-    潜在url:
-      https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8
+2. Text to Graph:  
+https://nthu-datalab.github.io/ml/competitions/04_Reverse-Image-Caption/04_Reverse_Image_Caption.html
+3. Graph to Text:  
+潜在url:  
+https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8
 4. Compose
 
 # Process
