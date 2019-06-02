@@ -34,3 +34,9 @@ https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to
   
   **Problems**
     case 1:
+    数据集在类脑平台的上传和在Google colab的上传均未成功，因此目前在自己的电脑上跑
+  **hint**
+    在本地下载好数据集的时候直接解压到已创建的pyhton项目上，此外可以用jupyter调试初期的一些问题，但注意jupyter不能解压文件
+    配置本地环境：
+    下载tensorflow cpu版（若有英伟达显卡可以下载gpu版），下载keras包，tensorlayer包（注意此包需要与tensorflow的版本对应，cpu版对应1.14左右版本，gpu版对应最新的2.1.0版），此外还需在下载nltk包后用nltk.download（）下载punc包。建议用anaconda的conda指令下载，pip太慢。
+    其他的问题可自行解决
