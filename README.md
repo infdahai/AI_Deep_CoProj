@@ -63,7 +63,7 @@ https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to
     
     目前情况如下(执行最后一个块时):
     
-    ```
+ ```
     WARNING:tensorflow:From /home/cluster/Downloads/datalabcup-reverse-image-caption-ver2/main.py:141: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
 Instructions for updating:
 This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
@@ -116,16 +116,18 @@ Traceback (most recent call last):
     fp = builtins.open(filename, "w+b")
 FileNotFoundError: [Errno 2] No such file or directory: './samples/train_04.png'
 
-    ```
+ ```
 
 发现samples以及 inference文件夹位置不明，需要尽快了解。否则可能需要尽快换方案尝试。
 
   ** hint **:
     在本机环境运行时，需要将代码中path 改为本机所在工程的根文件夹。  
     环境配置: 注意 tensorlayer == 1.11.0 (上2.0只支持tf2.0，这里统一确定该包版本)
-            其他可自由参考
-              (tensorboard                   1.13.1                
+            其他可自由参考            
+```
+              tensorboard                   1.13.1                
                 tensorflow                    1.13.1                
                 tensorflow-estimator          1.13.0                
-                 tensorlayer                   1.11.0  )
+                 tensorlayer                   1.11.0  
+```
               
