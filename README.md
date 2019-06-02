@@ -59,9 +59,9 @@ https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to
  
  6.2 - now
   
-    上传reverse文件夹下main.ipynb和.py文件，均可运行。如若出现 类似软件包undefined情况，可以重新执行最后一个block.
+上传reverse文件夹下main.ipynb和.py文件，均可运行。如若出现 类似软件包undefined情况，可以重新执行最后一个block.
     
-    目前情况如下(执行最后一个块时):
+目前情况如下(执行最后一个块时):
     
  ```
     WARNING:tensorflow:From /home/cluster/Downloads/datalabcup-reverse-image-caption-ver2/main.py:141: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
