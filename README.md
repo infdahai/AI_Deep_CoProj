@@ -120,7 +120,7 @@ FileNotFoundError: [Errno 2] No such file or directory: './samples/train_04.png'
 
 发现samples以及 inference文件夹位置不明，需要尽快了解。否则可能需要尽快换方案尝试。
 
-  ** hint **:
+  **hint** 
     在本机环境运行时，需要将代码中path 改为本机所在工程的根文件夹。  
     环境配置: 注意 tensorlayer == 1.11.0 (上2.0只支持tf2.0，这里统一确定该包版本)
             其他可自由参考            
