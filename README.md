@@ -35,17 +35,23 @@ https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to
   **Problems**
     case 1:
     数据集在类脑平台的上传和在Google colab的上传均未成功，因此目前在自己的电脑上跑
+    
     case2：
     代码在我的电脑跑的时候在Iterate the data_iterator这部分会自动终止，编译时pycharm的报错：
+    
     Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+    
     Creating new thread pool with default inter op setting: 4. Tune using inter_op_parallelism_threads for best performance.
+    
     OP_REQUIRES failed at whole_file_read_ops.cc:114 : Not found: NewRandomAccessFile failed to Create/Open: /102flowers/image_08110.jpg : ϵͳ�Ҳ���ָ����·����; No such process
+    
     在网上搜到的方法没什么效果，暂时卡在这，应该需要对代码细节仔细看才能解决。
     
-  **hint**
+  **hint：**
     在本地下载好数据集的时候直接解压到已创建的pyhton项目上，此外可以用jupyter调试初期的一些问题，但注意jupyter不能解压文件
     
     配置本地环境：
+
     下载tensorflow cpu版（若有英伟达显卡可以下载gpu版），下载keras包，tensorlayer包（注意此包需要与tensorflow的版本对应，cpu版对应1.14左右版本，gpu版对应最新的2.1.0版），此外还需在下载nltk包后用nltk.download（）下载punc包。建议用anaconda的conda指令下载，pip太慢。
     
     其他的问题可自行解决
