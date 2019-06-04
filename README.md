@@ -23,6 +23,11 @@ https://nthu-datalab.github.io/ml/competitions/04_Reverse-Image-Caption/04_Rever
 3. Graph to Text:  
 潜在url:  
 https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8
+
+[完整源码](https://github.com/hlamba28/Automatic-Image-Captioning)
+
+需要改动的地方是读取数据集的部分
+
 4. Compose
 
 # Process
