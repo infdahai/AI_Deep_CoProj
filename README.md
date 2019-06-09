@@ -32,6 +32,10 @@ https://nthu-datalab.github.io/ml/competitions/04_Reverse-Image-Caption/04_Rever
 
 4. Compose
 
+# Advice
+
+1. gan fine trick : https://zhuanlan.zhihu.com/p/28487633
+
 # Process
 
 5.22 - 6.2
