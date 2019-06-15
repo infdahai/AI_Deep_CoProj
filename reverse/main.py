@@ -1,4 +1,3 @@
-# %%
 
 import pandas as pd
 
@@ -35,8 +34,7 @@ import warnings
 warnings.filterwarnings('ignore')
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-# %%
-
+# print some information
 root_path  = os.getcwd()
 dictionary_path = root_path+'/dictionary'
 
@@ -357,7 +355,7 @@ with tf.Session() as sess:
 
             'BATCH_SIZE': 64,
 
-            'LR': 0.01,
+            'LR': 0.0001,
 
             'BETA': 0.5,  # AdamOptimizer parameter
 
@@ -777,11 +775,11 @@ with tf.Session() as sess:
                   inference_path=inference_path)
 
         gan.training()
-    else:
+    else:   #do not implement training, only generate image according to users's description
         gan = GAN(get_hparas(), training_phase=True, dataset_path=data_path, ckpt_path=checkpoint_path,
 
                   inference_path=inference_path, recover=4)
 
-        input_str = ''
+        input_str = 'the flower is blue'
 
-        gan.input_single_text(input_str=input_str,epoch=65536)
+        gan.input_single_text(input_str=input_str,epoch=0)
