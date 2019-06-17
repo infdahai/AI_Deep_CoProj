@@ -1,6 +1,8 @@
 # AI_Deep_CoProj
 description : cooperative deep learning project
 
+**最后的任务清单:https://github.com/infdahai/AI_Deep_CoProj/blob/master/final_task.md**
+
 # Target
 
 We build Grapht-Text-Graph Project in this work.
