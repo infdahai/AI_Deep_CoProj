@@ -1,8 +1,6 @@
 # AI_Deep_CoProj
 description : cooperative deep learning project
 
-**最后的任务清单:https://github.com/infdahai/AI_Deep_CoProj/blob/master/final_task.md**
-
 # Target
 
 We build Grapht-Text-Graph Project in this work.
@@ -21,11 +19,11 @@ url: https://colab.research.google.com
 https://nthu-datalab.github.io/ml/competitions/04_Reverse-Image-Caption/04_Reverse_Image_Caption.html
 
 3. Graph to Text:  
-  [潜在url](https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8)<br>
-  [完整源码](https://github.com/hlamba28/Automatic-Image-Captioning)
-  需要改动的地方是读取数据集的部分<br>
-  ［✓］这部分已经在6/5完成 [代码](./Image2Caption.ipynb)
-  
+    [潜在url](https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8)<br>
+    [完整源码](https://github.com/hlamba28/Automatic-Image-Captioning)
+    需要改动的地方是读取数据集的部分<br>
+    ［✓］这部分已经在6/5完成 [代码](./Image2Caption.ipynb)
+
   
 
 4. Compose
@@ -40,7 +38,7 @@ https://nthu-datalab.github.io/ml/competitions/04_Reverse-Image-Caption/04_Rever
 
   train code ( reverse image caption)  
   数据集下载link : http://rec.ustc.edu.cn/share/3dd85e90-7c6d-11e9-8455-af8d7307775b
-  
+
   **Problems**
     case 1:
     数据集在类脑平台的上传和在Google colab的上传均未成功，因此目前在自己的电脑上跑
@@ -55,19 +53,20 @@ https://nthu-datalab.github.io/ml/competitions/04_Reverse-Image-Caption/04_Rever
     OP_REQUIRES failed at whole_file_read_ops.cc:114 : Not found: NewRandomAccessFile failed to Create/Open: /102flowers/image_08110.jpg : ϵͳ�Ҳ���ָ����·����; No such process
     
     在网上搜到的方法没什么效果，暂时卡在这，应该需要对代码细节仔细看才能解决。
-    
+
   **hint：**
     在本地下载好数据集的时候直接解压到已创建的pyhton项目上，此外可以用jupyter调试初期的一些问题，但注意jupyter不能解压文件
     
     配置本地环境：
-
+    
     下载tensorflow cpu版（若有英伟达显卡可以下载gpu版），下载keras包，tensorlayer包（注意此包需要与tensorflow的版本对应，cpu版对应1.14左右版本，gpu版对应最新的2.1.0版），此外还需在下载nltk包后用nltk.download（）下载punc包。建议用anaconda的conda指令下载，pip太慢。
     
     其他的问题可自行解决
-    
+
  
+
  6.2 - now
-  
+
 上传reverse文件夹下main.ipynb和.py文件，均可运行。如若出现 类似软件包undefined情况，可以重新执行最后一个block.
     
 目前情况如下(执行最后一个块时):
@@ -139,4 +138,4 @@ FileNotFoundError: [Errno 2] No such file or directory: './samples/train_04.png'
                 tensorflow-estimator          1.13.0                
                  tensorlayer                   1.11.0  
 ```
-              
+
